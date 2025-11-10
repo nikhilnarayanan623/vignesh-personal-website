@@ -15,22 +15,30 @@ const videos = [
     id: 2,
     title: "Reels Content",
     category: "Reels",
-    fileId: "1d53jWT-ZeXfTz2SRkPl4gq8BgjeGw2mI",
+    fileId: "16tUW-fpn0j85onENQEYkups8XtRwi--w",
+    thumbnail: "/preview-9ff93eadd4405ae2403e63c1b652cd_1.mp4",
     description: "Creative Reels content demonstrating editing skills with color grading, text overlays, and visual storytelling",
   },
   {
     id: 3,
     title: "Reels Project",
     category: "Reels",
-    fileId: "1KWPCTXKEAR6GsvVK5N8q3CI3d8eKuDlH",
+    fileId: "1d53jWT-ZeXfTz2SRkPl4gq8BgjeGw2mI",
     description: "Short-form Reels content featuring dynamic editing, seamless transitions, and engaging visual elements",
   },
   {
     id: 4,
     title: "Reels Video",
     category: "Reels",
-    fileId: "1EhUL7GJg2mIqqnXlUdmpbjo-LJlq2llv",
+    fileId: "1KWPCTXKEAR6GsvVK5N8q3CI3d8eKuDlH",
     description: "Creative Reels content with engaging visuals, smooth transitions, and compelling storytelling",
+  },
+  {
+    id: 5,
+    title: "Reels Content",
+    category: "Reels",
+    fileId: "1EhUL7GJg2mIqqnXlUdmpbjo-LJlq2llv",
+    description: "Short-form Reels content showcasing dynamic editing techniques and engaging visual storytelling",
   },
 ]
 
