@@ -5,6 +5,14 @@ import { useState } from "react"
 const videos = [
   {
     id: 1,
+    title: "Reels Video",
+    category: "Reels",
+    fileId: "1CE8ELlJn2ScH8r2E2NipavYiQBMiD15B",
+    thumbnail: "/preview_IMG_5186.mp4",
+    description: "Creative Reels content featuring dynamic editing, smooth transitions, and engaging visual storytelling",
+  },
+  {
+    id: 2,
     title: "Reels Video Project",
     category: "Reels",
     fileId: "1TE87bacWK92Pma_2syoPJYXLB5hU_k1j",
@@ -12,7 +20,7 @@ const videos = [
     description: "Engaging Reels content showcasing creative editing with smooth transitions and dynamic pacing",
   },
   {
-    id: 2,
+    id: 3,
     title: "Reels Content",
     category: "Reels",
     fileId: "16tUW-fpn0j85onENQEYkups8XtRwi--w",
@@ -20,26 +28,27 @@ const videos = [
     description: "Creative Reels content demonstrating editing skills with color grading, text overlays, and visual storytelling",
   },
   {
-    id: 3,
+    id: 4,
     title: "Reels Project",
     category: "Reels",
     fileId: "1d53jWT-ZeXfTz2SRkPl4gq8BgjeGw2mI",
     description: "Short-form Reels content featuring dynamic editing, seamless transitions, and engaging visual elements",
   },
   {
-    id: 4,
+    id: 5,
     title: "Reels Video",
     category: "Reels",
     fileId: "1KWPCTXKEAR6GsvVK5N8q3CI3d8eKuDlH",
     description: "Creative Reels content with engaging visuals, smooth transitions, and compelling storytelling",
   },
   {
-    id: 5,
+    id: 6,  
     title: "Reels Content",
     category: "Reels",
     fileId: "1EhUL7GJg2mIqqnXlUdmpbjo-LJlq2llv",
     description: "Short-form Reels content showcasing dynamic editing techniques and engaging visual storytelling",
   },
+
 ]
 
 const categories = ["All", "Reels"]
