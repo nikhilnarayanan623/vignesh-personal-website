@@ -7,51 +7,73 @@ const videos = [
     id: 1,
     title: "Reels Video",
     category: "Reels",
+    orientation: "portrait",
+    fileId: "1QZF-bFcYRS209s713cmTcw-LWDmFHzjv",
+    thumbnail: "/code_hunters_preview.mp4",
+    description: "Dynamic Reels edit featuring fast cuts, bold typography, and high-energy pacing",
+  },
+  {
+    id: 2,
+    title: "Reels Video",
+    category: "Reels",
+    orientation: "portrait",
     fileId: "1CE8ELlJn2ScH8r2E2NipavYiQBMiD15B",
     thumbnail: "/preview_IMG_5186.mp4",
     description: "Creative Reels content featuring dynamic editing, smooth transitions, and engaging visual storytelling",
   },
   {
-    id: 2,
+    id: 3,
     title: "Reels Video Project",
     category: "Reels",
+    orientation: "portrait",
     fileId: "1TE87bacWK92Pma_2syoPJYXLB5hU_k1j",
     thumbnail: "/WhatsApp Video 2025-11-09 at 10.23.31 AM (1).mp4",
     description: "Engaging Reels content showcasing creative editing with smooth transitions and dynamic pacing",
   },
   {
-    id: 3,
+    id: 4,
     title: "Reels Content",
     category: "Reels",
+    orientation: "portrait",
     fileId: "16tUW-fpn0j85onENQEYkups8XtRwi--w",
     thumbnail: "/preview-9ff93eadd4405ae2403e63c1b652cd_1.mp4",
     description: "Creative Reels content demonstrating editing skills with color grading, text overlays, and visual storytelling",
   },
   {
-    id: 4,
+    id: 5,
     title: "Reels Project",
     category: "Reels",
+    orientation: "portrait",
     fileId: "1d53jWT-ZeXfTz2SRkPl4gq8BgjeGw2mI",
     description: "Short-form Reels content featuring dynamic editing, seamless transitions, and engaging visual elements",
   },
   {
-    id: 5,
+    id: 6,
     title: "Reels Video",
     category: "Reels",
+    orientation: "portrait",
     fileId: "1KWPCTXKEAR6GsvVK5N8q3CI3d8eKuDlH",
     description: "Creative Reels content with engaging visuals, smooth transitions, and compelling storytelling",
   },
   {
-    id: 6,  
+    id: 7,
     title: "Reels Content",
     category: "Reels",
+    orientation: "portrait",
     fileId: "1EhUL7GJg2mIqqnXlUdmpbjo-LJlq2llv",
     description: "Short-form Reels content showcasing dynamic editing techniques and engaging visual storytelling",
   },
-
+  {
+    id: 8,
+    title: "Landscape Video Edit",
+    category: "Landscape",
+    orientation: "landscape",
+    fileId: "19skf7QPUsB3o1XsWtMdSfecvQ2oZneem",
+    description: "Landscape format video highlighting cinematic pacing, color grading, and storytelling.",
+  },
 ]
 
-const categories = ["All", "Reels"]
+const categories = ["All", "Reels", "Landscape"]
 
 export function Portfolio() {
   const [activeCategory, setActiveCategory] = useState("All")
@@ -97,13 +119,20 @@ export function Portfolio() {
             const embedUrl = `https://drive.google.com/file/d/${video.fileId}/preview?usp=sharing&rm=minimal`
             const isPlaying = playingVideos.has(video.id)
             const showThumbnail = video.thumbnail && !isPlaying
+            const isLandscape = video.orientation === "landscape"
 
             return (
               <div
                 key={video.id}
                 className="rounded-lg overflow-hidden bg-muted shadow-lg"
               >
-                <div className="relative w-full max-w-lg mx-auto aspect-[9/16] max-h-[500px] bg-black rounded-t-lg overflow-hidden">
+                <div
+                  className={
+                    isLandscape
+                      ? "relative w-full aspect-video bg-black rounded-t-lg overflow-hidden"
+                      : "relative w-full max-w-lg mx-auto aspect-[9/16] max-h-[500px] bg-black rounded-t-lg overflow-hidden"
+                  }
+                >
                   {showThumbnail ? (
                     <div className="relative w-full h-full cursor-pointer group" onClick={() => handleVideoPlay(video.id)}>
                       <video
