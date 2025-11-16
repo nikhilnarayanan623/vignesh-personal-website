@@ -8,7 +8,7 @@ const videos = [
     title: "Reels Video",
     category: "Reels",
     orientation: "portrait",
-    fileId: "1QZF-bFcYRS209s713cmTcw-LWDmFHzjv",
+    fileId: "1oO0FHs-IpND-67cw8b6qzVZSICsbGogC",
     thumbnail: "/code_hunters_preview.mp4",
     description: "Dynamic Reels edit featuring fast cuts, bold typography, and high-energy pacing",
   },
@@ -68,7 +68,7 @@ const videos = [
     title: "Landscape Video Edit",
     category: "Landscape",
     orientation: "landscape",
-    fileId: "19skf7QPUsB3o1XsWtMdSfecvQ2oZneem",
+    fileId: "1ZWiKB-7CPUXLt3khJj8_0wpqCmT_-_fQ",
     description: "Landscape format video highlighting cinematic pacing, color grading, and storytelling.",
   },
 ]
