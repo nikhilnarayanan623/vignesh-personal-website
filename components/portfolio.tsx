@@ -67,7 +67,7 @@ const videos = [
     id: 8,
     title: "Landscape Video Edit",
     category: "Landscape",
-    orientation: "landscape",
+    orientation: "portrait-16-19",
     fileId: "1ZWiKB-7CPUXLt3khJj8_0wpqCmT_-_fQ",
     description: "Landscape format video highlighting cinematic pacing, color grading, and storytelling.",
   },
@@ -119,7 +119,7 @@ export function Portfolio() {
             const embedUrl = `https://drive.google.com/file/d/${video.fileId}/preview?usp=sharing&rm=minimal`
             const isPlaying = playingVideos.has(video.id)
             const showThumbnail = video.thumbnail && !isPlaying
-            const isLandscape = video.orientation === "landscape"
+            const isPortrait1619 = video.orientation === "portrait-16-19"
 
             return (
               <div
@@ -128,8 +128,8 @@ export function Portfolio() {
               >
                 <div
                   className={
-                    isLandscape
-                      ? "relative w-full aspect-video bg-black rounded-t-lg overflow-hidden"
+                    isPortrait1619
+                      ? "relative w-full aspect-[16/19] bg-black rounded-t-lg overflow-hidden"
                       : "relative w-full max-w-lg mx-auto aspect-[9/16] max-h-[500px] bg-black rounded-t-lg overflow-hidden"
                   }
                 >
