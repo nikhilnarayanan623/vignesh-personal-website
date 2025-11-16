@@ -8,12 +8,21 @@ const videos = [
     title: "Reels Video",
     category: "Reels",
     orientation: "portrait",
+    fileId: "1jn4_VYR3dw3SNaguSGkmqOTjFMkhTPWm",
+    thumbnail: "/preview_1jn4_VYR3dw3SNaguSGkmqOTjFMkhTPWm.mp4",
+    description: "Dynamic Reels edit featuring fast cuts, bold typography, and high-energy pacing",
+  },
+  {
+    id: 2,
+    title: "Reels Video",
+    category: "Reels",
+    orientation: "portrait",
     fileId: "1oO0FHs-IpND-67cw8b6qzVZSICsbGogC",
     thumbnail: "/code_hunters_preview.mp4",
     description: "Dynamic Reels edit featuring fast cuts, bold typography, and high-energy pacing",
   },
   {
-    id: 2,
+    id: 3,
     title: "Reels Video",
     category: "Reels",
     orientation: "portrait",
@@ -22,7 +31,7 @@ const videos = [
     description: "Creative Reels content featuring dynamic editing, smooth transitions, and engaging visual storytelling",
   },
   {
-    id: 3,
+    id: 4,
     title: "Reels Video Project",
     category: "Reels",
     orientation: "portrait",
@@ -31,7 +40,7 @@ const videos = [
     description: "Engaging Reels content showcasing creative editing with smooth transitions and dynamic pacing",
   },
   {
-    id: 4,
+    id: 5,
     title: "Reels Content",
     category: "Reels",
     orientation: "portrait",
@@ -40,7 +49,7 @@ const videos = [
     description: "Creative Reels content demonstrating editing skills with color grading, text overlays, and visual storytelling",
   },
   {
-    id: 5,
+    id: 6,
     title: "Reels Project",
     category: "Reels",
     orientation: "portrait",
@@ -48,7 +57,7 @@ const videos = [
     description: "Short-form Reels content featuring dynamic editing, seamless transitions, and engaging visual elements",
   },
   {
-    id: 6,
+    id: 7,
     title: "Reels Video",
     category: "Reels",
     orientation: "portrait",
@@ -56,7 +65,7 @@ const videos = [
     description: "Creative Reels content with engaging visuals, smooth transitions, and compelling storytelling",
   },
   {
-    id: 7,
+    id: 8,
     title: "Reels Content",
     category: "Reels",
     orientation: "portrait",
@@ -64,7 +73,7 @@ const videos = [
     description: "Short-form Reels content showcasing dynamic editing techniques and engaging visual storytelling",
   },
   {
-    id: 8,
+    id: 9,
     title: "Landscape Video Edit",
     category: "Landscape",
     orientation: "portrait-16-19",
