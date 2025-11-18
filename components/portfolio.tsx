@@ -8,8 +8,8 @@ const videos = [
     title: "Reels Video",
     category: "Reels",
     orientation: "portrait",
-    fileId: "1pFXqyy-QvjWc_rX57HD1NvFdipeJFvZv",
-    thumbnail: "/preview_1pFXqyy-QvjWc_rX57HD1NvFdipeJFvZv.mp4",
+    fileId: "1-fZfiUMTRe2-IL0-vjn2TuAxXeftCC3y",
+    thumbnail: "/preview_1-fZfiUMTRe2-IL0-vjn2TuAxXeftCC3y.mp4",
     description: "Simple Reels edit featuring fast cuts, bold typography, and high-energy pacing",
   },
   {
